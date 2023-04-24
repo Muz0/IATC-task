@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #e4e4e4;
+        }
+        form{
+            padding: 50px;
+            border: 5px solid #ffffff;
+            width: fit-content;
+
+            /* margin: 50px; */
+        }
+        .firstColumn{
+            width: 200px;
+        }
+        .firstColumn label{
+            text-align: center;
+        }
+        .secocundColumnInput{
+            width: 200px;
+            border:  1px solid #a4a4a4;
+        }
+        h2{
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <form>
+            <table>
+                <caption>
+                    <h2>
+                        Registration Form
+                    </h2>
+                </caption>
+    
+                <tbody>
+                    <tr>
+                        <td class="firstColumn"><label for="name">First Name</label></td>
+                        <td><input type="text" name="name" id="name" class="secocundColumnInput"></td>
+                    </tr>
+                    <tr>
+                        <td class="firstColumn"><label for="surname">Last Name</label></td>
+                        <td><input type="text" name="surname" id="surname" class="secocundColumnInput" ></td>
+                    </tr>
+                    <tr>
+                        <td class="firstColumn"><label for="nickName">Nick Name</label></td>
+                        <td><input type="text" name="nickName" id="nickName" class="secocundColumnInput"></td>
+                    </tr>
+                    <tr>
+                        <td class="firstColumn"><label for="email">e-mail</label></td>
+                        <td><input type="email" name="email" id="email"  class="secocundColumnInput"></td>
+                    </tr>
+                    <tr>
+                        <td class="firstColumn"><label for="password">Password</label></td>
+                        <td><input type="password" name="password" id="password"  class="secocundColumnInput"></td>
+                    </tr>
+                    <tr>
+                        <td class="firstColumn"><label for="dateOfBirth">Date of Birth</label></td>
+                        <td><input type="date" name="dateOfBirth" id="dateOfBirth"  class="secocundColumnInput"></td>
+                    </tr>
+                    <tr>
+                        <td class="firstColumn">Gender</td>
+                        <td>
+                            <input type="radio" name="gender" id="male" value="male">
+                            <label for="male">Male</label>
+    
+                            <input type="radio" name="gender" id="female" value="female">
+                            <label for="female">Female</label>
+    
+                            <input type="radio" name="gender" id="others" value="others">
+                            <label for="others">Others</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="firstColumn"><label for="mobile">Mobile</label></td>
+                        <td><input type="tel" name="mobile" id="mobile"  class="secocundColumnInput"></td>
+                    </tr>
+                    <tr>
+                        <td class="firstColumn"><label for="textarea">Address</label></td>
+                        <td ><textarea name="textarea" id="textarea" cols="20" rows="5"  class="secocundColumnInput"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td class="firstColumn"></td>
+                        <td>
+                            <input type="submit" value="Submit" style="margin-right: 40px;">
+                            <input type="reset">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </main>
+</body>
+</html>
