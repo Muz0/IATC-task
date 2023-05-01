@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    function fibonacci(argument) {
+      let a = 1;
+      let b = 1;
+      let temp = a + b;
+      for (let index = 0; index < argument; index++) {
+
+        if (argument > temp) {
+          b = a;
+          a = temp;
+          temp = a + b;
+          console.log(a);
+        }
+        else {
+          break;
+        }
+      }
+      console.log("a" + a);
+      console.log("b" + b);
+      console.log("answer" + a);
+    }
+
+    fibonacci(prompt("What is your max value?"));
+  </script>
+</head>
+
+<body>
+  <p>
+    Fibonacci
+  </p>
+</body>
+
+</html>
