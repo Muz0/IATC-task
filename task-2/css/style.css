@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(212, 45%, 89%);
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+section{
+  width: 375px;
+  background-color:  hsl(0, 0%, 100%);
+  text-align: center;
+  border-radius: 25px;
+  position: absolute;
+  top: 25%;
+}
+
+
+img{
+  border-radius: 25px;
+  padding: 15px;
+}
+
+img{
+  width: 100%;
+}
+
+figcaption{
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+  padding: 15px;
+}
+
+figcaption p{
+  padding: 5px;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.regular{
+  font-weight: 400;
+}
