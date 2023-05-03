@@ -47,7 +47,7 @@ Most probably, will require media query will set max 800 px width for mobile, la
   }
 
 }
-# ```
+```
 
 ### use simple snimations
 
