@@ -12,17 +12,15 @@ body {
 }
 
 main {
-
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 
   width: -moz-fit-content;
   width: fit-content;
-  font-family: 'Hanken Grotesk';
+  font-family: "Hanken Grotesk";
   font-size: 18px;
 
   display: flex;
   flex-direction: row;
-
 
   background-color: hsl(0, 0%, 100%);
 
@@ -47,7 +45,6 @@ figure {
   border-radius: 25px;
 }
 
-
 figure h1 {
   color: hsl(221, 100%, 96%);
   padding: 15px;
@@ -62,7 +59,7 @@ figure .circle {
     hsla(241, 72%, 46%, 0),
     hsla(256, 72%, 46%, 1)
   );
-  
+
   height: 200px;
   width: 200px;
 
@@ -83,7 +80,7 @@ figure h2 {
   padding: 10px;
 }
 
-figure>p {
+figure > p {
   padding: 10px;
 }
 
@@ -92,30 +89,17 @@ aside {
   width: 50%;
 }
 
-aside>p {
+aside > p {
   border-radius: 15px;
   margin: 15px 0 15px 0;
   padding: 10px;
-  transition: transform .2s; /* Animation */
+  transition: transform 0.2s; /* Animation */
   display: flex;
   justify-content: space-between;
-
-  
 }
 
-aside>p:hover{
+aside > p:hover {
   transform: scale(1.2);
-}
-
-aside p>span {
-  padding-right: 50px;
-
-
-}
-
-aside .fix-align-right {
-  text-align: right;
-  padding: 0;
 }
 
 #reaction {
@@ -146,7 +130,6 @@ aside .fix-align-right {
   background-color: #f3f3fd;
 }
 
-
 #visual #blue {
   color: hsl(234, 85%, 45%);
 }
@@ -168,7 +151,7 @@ aside .fix-align-right {
   top: 25%;
 }
 
-#button:hover{
+#button:hover {
   background-image: linear-gradient(
     0deg,
     hsl(252, 100%, 67%),
@@ -181,12 +164,11 @@ aside .fix-align-right {
     flex-direction: column;
   }
 
-  figure{
+  figure {
     width: 100%;
-    border-radius: 0 0 25px 25px ;
+    border-radius: 0 0 25px 25px;
   }
-  aside{
+  aside {
     width: 100%;
   }
-
 }
