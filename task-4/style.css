@@ -1,8 +1,9 @@
 @import url('./fonts/style.css');
-@import url('./variables.css');
-@import url('./header.css');
-@import url('./hero.css');
-@import url('./providing.css');
+@import url('./css/variables.css');
+@import url('./css/header.css');
+@import url('./css/hero.css');
+@import url('./css/providing.css');
+@import url('./css/cards.css');
 
 * {
 	box-sizing: border-box;
