@@ -1,30 +1,60 @@
 .half-blood{
-  display: flex;
-  flex-direction: row;
-
-  color: red;
+  position: absolute;
+  top: 50px;
 }
 
-.card{
-  background-color: white;
-  border: 1px solid red;
+#wrapperFor3cards {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
-.card .icon-wrapper{
+.card {
+  background-color: #ffffff;
+  height: 246px;
+  width: 366px;
+  left: 0px;
+  top: 0px;
+  border-radius: 20px;
+}
+
+.card .cardContent {
+  display: flex;
+
+  position: relative;
+  top: 65px;
+  left: 65px;
+}
+.card .icon-wrapper {
   background-color: #000000;
   color: #000000;
   height: 90px;
   width: 90px;
   border-radius: 19.6px;
+
 }
 
-.card p{
+.card p {
   color: #000000;
+  /* font-family: Poppins sans-serif; */
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 34px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  
+  padding-left: 28px;
 }
 
-.card p span{
+.card p span {
   font-size: 48px;
   font-weight: 600;
 }
+
+.card .cardContent .icon-wrapper img{
+  position: relative;
+  top: 22.5px;
+  left: 22.5px;
+}
+

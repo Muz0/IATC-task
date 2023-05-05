@@ -7,6 +7,7 @@
 	width: calc(50% - 27px);
 	margin: 12px;
 	/* width: 50%; */
+	height: 800PX;
 }
 
 .hero > .content {
@@ -136,4 +137,22 @@
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+
+/* Work on most wanted section, best idea to create table or use grid */
+
+/* div.most-wanted > a*a */
+.most-wanted{
+	display: grid;
+	grid-template-columns: 160px 160px 160px;
+	text-align: center;
+}
+
+.most-wanted a{
+	text-decoration: none;
+	color: #000000;
+	background: #ffffff;
+	margin: 15px;
+	padding: 4px 12px;
 }

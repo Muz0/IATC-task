@@ -8,11 +8,22 @@
 * {
 	box-sizing: border-box;
 }
-
+html{
+	height: 5000px;
+}
 body {
 	background-color: #ffffff;
 	color: #ffffff;
 	font-family: 'Neue Machina', sans-serif;
+	
+	height: 100%;
+}
+
+main{
+	/* height: fit-content; */
+	height: 100%;
+	background: #EEEDEB;
+
 }
 
 button {
@@ -35,6 +46,7 @@ button {
 .half-blood {
 	height: 20px;
 	position: relative;
+	top: -125px;
 }
 
 .half-blood > .content {
