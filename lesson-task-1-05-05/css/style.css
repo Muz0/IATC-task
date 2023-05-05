@@ -1,0 +1,125 @@
+@import url('../fonts/fonts.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 13px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+#special-svg{
+  border-radius: 0;
+  position: relative;
+  float: inline-end;
+}
+
+
+
+@media screen and (min-width: 801px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+  
+    margin: 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  main{
+    display: flex;
+    flex-direction: column;
+    /* margin: 25px; */
+  }
+  main article{
+    margin: 25px 25px 12.5px 25px;
+  }
+}
+
+
+.card {
+  border-radius: 10px;
+  color: hsl(0, 0%, 81%);
+  box-shadow: 0px 0px 50px grey;
+}
+
+.card .card-header{
+  padding: 20px 0px 0px 20px;
+}
+.card .card-header p{
+  margin: 0px 0px 0px 10px;
+  font-weight: 600;
+}
+.card .card-header p span{
+  font-weight: 500;
+}
+
+.description{
+  font-weight: 500;
+  padding: 20px;
+}
+
+.description span{
+  font-weight: 600;
+  padding: 10px 0px;
+  
+}
+
+#kira,
+#jeanette {
+  color: hsl(219, 29%, 14%);
+}
+
+#kira .description,
+#jeanette .description {
+  color: hsl(217, 19%, 35%);
+  font-weight: 500;
+}
+
+#kira .description span,
+#jeanette .description span {
+  color: hsl(219, 29%, 14%);
+  font-weight: 600;
+}
+.card .card-header {
+  display: flex;
+}
+
+.card .description span {
+  font-size: 1.5rem;
+}
+
+img {
+  border-radius: 50%;
+  height: 30px;
+}
+
+#daniel {
+  background-color: hsl(263, 55%, 52%);
+  grid-column: span 2;
+}
+
+#jonathan {
+  background-color: hsl(217, 19%, 35%);
+}
+
+#kira {
+  background-color: hsl(0, 0%, 100%);
+
+  /* grid-column: ; */
+  grid-row: span 2;
+}
+
+#patrick {
+  background-color: hsl(219, 29%, 14%);
+
+  grid-column: span 2;
+}
+
+.description span {
+  display: block;
+}
