@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Djinni - fint your dream job</title>
+    <title>Djinni - find your dream job</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
@@ -39,13 +39,16 @@
             <div class="vertical-line"></div>
             <button>Get started</button>
           </form>
-          <div class="most-wanted">
-            <a href="#">Frontşik</a>
-            <a href="#">bakendşik</a>
-            <a href="#">databeyzşik</a>
-            <a href="#">Frontşik</a>
-            <a href="#">bakendşik</a>
-            <a href="#">databeyzşik</a>
+          <div id="most-wanted-fix-title">
+            <p id="most-wantedP">Most wanted</p>
+            <div class="most-wanted">
+              <a href="#">Frontşik</a>
+              <a href="#">bakendşik</a>
+              <a href="#">databeyzşik</a>
+              <a href="#">Frontşik</a>
+              <a href="#">bakendşik</a>
+              <a href="#">databeyzşik</a>
+            </div>
           </div>
         </div>
         <div class="gallery">
@@ -105,16 +108,31 @@
             </div>
           </div>
         </div>
-
-        <div class="content"></div>
       </section>
 
-      <!-- <section class="providing">
-				<div class="photos">
-					<div class="wrapper"></div>
-					<div class="wrapper"></div>
-				</div>
-			</section> -->
+      <section id="providing">
+        <div class="contentInProviding" id="imagesOfTwo">
+          <div id="office1" class="office">
+            <img src="./images/office.png" alt="office" />
+          </div>
+          <div id="office2" class="office">
+            <img src="./images/office-2.png" alt="office-2-caffeteria" />
+          </div>
+        </div>
+        <div class="contentInProviding" id="textInProviding">
+          <div id="align-properly">
+            <h2>
+              We provding place you
+can get the trusted job
+            </h2>
+            <p>
+              Create an account for the job information you want, get daily notifications and you can easily apply directly to the company you want and create an account now for free
+            </p>
+            <a href="#">Create Account</a>
+            <img src="./svg/circle-text.svg" alt="Text in the circle says See jobs and apply">
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
