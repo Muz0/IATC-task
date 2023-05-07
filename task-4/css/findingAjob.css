@@ -1,0 +1,72 @@
+#findingAjob {
+  margin-left: 60px;
+}
+
+#findingAjob #text {
+  width: 842px;
+  height: 509px;
+
+  padding: 45px 60px 0 50px;
+
+  background: #000000;
+  border-radius: 0px 12px 12px 0px;
+}
+
+#findingAjob #text h2 {
+  /* title */
+  width: 365px;
+  height: 122px;
+
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 128%;
+  /* or 61px */
+
+  letter-spacing: 0.065em;
+
+  color: rgba(255, 255, 255, 0.89);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#findingAjob #text p {
+  /* desc */
+
+  width: 731px;
+  height: 70px;
+  margin: 28px 0 0 0;
+  font-family: "Poppins" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 144%;
+  /* or 35px */
+
+  letter-spacing: 0.06em;
+
+  color: rgba(255, 255, 255, 0.67);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#findingAjob figure img {
+  /* SEE ALL */
+
+  position: relative;
+  width: 204px;
+  height: 203.2px;
+  left: 1166px;
+  top: -450px;
+
+  border-radius: 104.874px;
+}

@@ -35,7 +35,7 @@
   width: 648px;
   height: 122px;
 
-  font-family: "Sora";
+  font-family: "Sora", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
@@ -51,9 +51,9 @@
   width: 647px;
   height: 136px;
 
-  padding: 28px 0 0 0;
+  padding: 80px 0 0 0;
 
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -74,7 +74,7 @@
   margin: 70px 0 0 0;
   /* inner text */
 
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins",  sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
