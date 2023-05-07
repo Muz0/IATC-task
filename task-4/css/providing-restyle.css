@@ -1,4 +1,5 @@
-#providing {
+#providing,
+#smart-hiring {
   display: flex;
   flex-direction: row;
 }
@@ -24,11 +25,11 @@
   top: -34px;
 }
 
-#providing #textInProviding #align-properly {
+#providing #textInProviding .align-properly {
   padding: 200px 0 0 0;
 }
 
-#align-properly h2 {
+.align-properly h2 {
   /* title */
 
   width: 648px;
@@ -46,7 +47,7 @@
   color: #000000;
 }
 
-#align-properly p {
+.align-properly p {
   width: 647px;
   height: 136px;
 
@@ -68,8 +69,8 @@
   flex-grow: 0;
 }
 
-
-#align-properly a {
+.align-properly a {
+  text-decoration: none;
   margin: 70px 0 0 0;
   /* inner text */
 
@@ -105,8 +106,37 @@
   flex-grow: 0;
 }
 
-#align-properly img{
-    position: relative;
-    left: 65%;
-    top: -100px;
+.align-properly img {
+  position: relative;
+  left: 65%;
+  top: -100px;
+}
+
+/* smart hiring --------------------------------  */
+
+.smartHiring .align-properly {
+  margin: 150px 0 0 100px;
+}
+
+/* Handle nasty figure */
+
+#octate-figure {
+  /* align itself */
+  position: relative;
+  left: 15%;
+  /* align content */
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: repeat(6, 120px);
+  grid-gap: 52px;
+}
+
+#octate-figure .span-2 {
+  background-color: red;
+  grid-row: span 2;
+  border-radius: 95.0314px;
+  background: url("../images/flying-man.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -28px;
 }
