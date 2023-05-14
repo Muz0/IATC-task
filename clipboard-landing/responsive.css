@@ -70,6 +70,10 @@
     > ul {
       width: 60%;
     }
+
+    > ul > p {
+      text-align: center;
+    }
   }
 
   .devices {
@@ -192,10 +196,6 @@
         display: grid;
         gap: 48px;
       }
-
-      > ul * {
-        margin: 0 auto;
-      }
     }
     .devices {
       height: 400px;
@@ -275,11 +275,17 @@
       width: 60%;
       display: grid;
       gap: 48px;
+
+      > li {
+        > p{
+          text-align: center;
+        }
+      }
     }
 
-    > ul * {
-      margin: 0 auto;
-    }
+    /* > ul * {
+      margin: 0 auto; */
+    /* } */
   }
   .devices {
     height: 400px;
