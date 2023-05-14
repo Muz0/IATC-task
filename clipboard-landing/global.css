@@ -1,28 +1,8 @@
 body {
 	font-family: 'Bai Jamjuree', sans-serif;
 	font-style: normal;
-
 }
 
-.container-sm {
-	width: calc(1440px - 700px);
-	padding: 30px 0;
-	margin: 80px auto;
-}
-.container-md {
-	width: calc(1440px - 600px);
-	padding: 30px 0;
-	margin: 80px auto;
-}
-.container-lg {
-	width: calc(1440px - 330px);
-	padding: 30px 0;
-	margin: 0 auto;
-}
-
-.bottom-figure-container{
-	width: 350px;
-}
 
 .m-0 {
 	margin: 0;
@@ -176,6 +156,7 @@ body {
 }
 
 .title {
+	text-align: center;
 	font-weight: 600;
 	line-height: 1.25;
 	color: #4c545c;

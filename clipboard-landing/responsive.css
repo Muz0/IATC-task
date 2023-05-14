@@ -1,0 +1,207 @@
+/* 1440px works fine as defult css */
+
+@media screen and (min-width: 1440px) {
+  .container-sm {
+    width: calc(1440px - 700px);
+    padding: 30px 0;
+    margin: 80px auto;
+  }
+  .container-md {
+    width: calc(1440px - 600px);
+    padding: 30px 0;
+    margin: 80px auto;
+  }
+  .container-lg {
+    width: calc(1440px - 330px);
+    padding: 30px 0;
+    margin: 0 auto;
+  }
+
+  .bottom-figure-container {
+    width: 350px;
+  }
+}
+
+/* Laptop 1024px */
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .header {
+    height: 150px;
+  }
+  .hero {
+    margin-top: -150px;
+
+    > img {
+      margin-bottom: 28px;
+    }
+  }
+
+  .container-sm {
+    width: calc(1024px - 300px);
+    padding: 30px 0;
+    margin: 30px auto;
+  }
+  .container-md {
+    width: calc(1024px - 200px);
+    padding: 30px 0;
+    margin: 80px auto;
+  }
+  .container-lg {
+    width: calc(1024px - 20px);
+    padding: 30px 0;
+    margin: 0 auto;
+  }
+
+  .g-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .feature {
+    margin: 0;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+
+    > img {
+      width: 600px;
+    }
+
+    > ul {
+      width: 60%;
+    }
+  }
+
+  .devices {
+    height: 500px;
+  }
+}
+
+/* Tablet 768px */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    height: 150px;
+  }
+
+  .hero {
+    margin-top: -250px;
+
+    > img {
+    }
+
+    .container-sm {
+      width: calc(768px - 250px);
+      padding: 30px 0;
+      margin: 30px auto;
+    }
+    .container-md {
+      width: calc(768px - 150px);
+      padding: 30px 0;
+      margin: 80px auto;
+    }
+    .container-lg {
+      width: calc(768px - 20px);
+      padding: 30px 0;
+      margin: 0 auto;
+    }
+
+    .g-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+    }
+
+    .feature {
+      margin: 0;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+
+      > img {
+        width: 450px;
+      }
+
+      > ul {
+        width: 60%;
+      }
+    }
+    .devices {
+      height: 400px;
+    }
+  }
+
+  /* Mobile 320px */
+
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    main {
+      margin: 0 32px;
+    }
+
+    /* Setting Mobile specific order of items */
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    /* .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+
+    > div:last-child > img {
+      margin: 20px;
+    }
+  } */
+
+    .header {
+      height: 0px;
+    }
+    .container-sm {
+      /* width: calc(768px - 250px); */
+      padding: 30px 0;
+      margin: 30px auto;
+    }
+    .container-md {
+      /* width: calc(768px - 150px); */
+      padding: 30px 0;
+      margin: 80px auto;
+    }
+    .container-lg {
+      /* width: calc(768px - 20px); */
+      padding: 30px 0;
+      margin: 0 auto;
+    }
+
+    .g-row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 56px;
+    }
+
+    .feature {
+      margin: 0;
+      grid-template-columns: 1fr;
+      gap: 50px;
+
+      > img {
+        width: 300px;
+        margin: 0 auto;
+      }
+
+      > ul {
+        margin: 0 auto;
+        width: 60%;
+        display: grid;
+        gap: 48px;
+      }
+
+      > ul * {
+        margin: 0 auto;
+      }
+    }
+    .devices {
+      height: 400px;
+    }
+  }
+}
